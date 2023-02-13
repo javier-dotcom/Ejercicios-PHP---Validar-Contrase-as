@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar contraseñas</title>
+    <style>
+    body{
+        width: 80%;
+        background-color:black;
+        color:white;
+        text-align:center;
+        margin:auto;
+    }
+</style>
+</head>
+
+<body>
+<h1>Validar contraseñas</h1>
+    <p>(penúltimo nro DNI 4, 5 o 6)
+        Escribir un programa en HTML que pida dos cadenas de texto, que son contraseñas de un
+        usuario que se está creando una cuenta en un sistema. Por medio del método POST, llamar
+        a un programa php que con funciones realice lo siguiente:
+         Validar que las dos contraseñas sean iguales;
+         Deben tener al menos un número y una mayúscula. 
+        Indicar en el script principal si las contraseñas son válidas o no lo son. En caso que no lo
+        sean, indicar el por qué (contraseñas distintas, que no contienen al menos un número o que
+        no contienen una mayúscula). </p>
+    <form action="Ejercicio_64.php" method="post">
+
+        <h2>Ingrese dos cadenas de texto</h2><br>
+        
+            Validar que las dos contraseñas sean iguales;<br>
+            
+            Deben tener al menos un número y una mayúscula. <br><br>
+        
+        <label> Cadena 1</label>
+        <input type="text" name="cadena1" id=""><br>
+        <br><br>
+        <label> Cadena 1</label>
+
+        <input type="text" name="cadena2" id=""><br>
+        <br><br>
+        <input type="submit" value="Enviar">
+
+
+    </form>
+</body>
+
+</html>
